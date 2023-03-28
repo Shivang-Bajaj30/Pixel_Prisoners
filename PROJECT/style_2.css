@@ -1,0 +1,170 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.content{
+  text-align: center;
+}
+
+.img{
+  padding: 0px 0px;
+}
+
+.border{
+  border-left: 2px solid white;
+  padding: 5px 0px 0px 0px;
+  margin: 11px 0px 0px 0px;
+  height: 48px;
+}
+
+.services{
+  height: 50px;
+  margin-top: 15px ;
+}
+
+.img:hover{
+  background: none;
+}
+
+.cu{
+  padding-top: 15px;
+}
+
+a {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 2px 0px 0px 0px;
+}
+
+p{
+  height: 1190px;
+
+}
+
+.nav-area {
+  background: #262626;
+  height: 71px;
+  font-family: 'Roboto', 'sans-serif;';
+}
+.nav-area:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.nav-area ul {
+  list-style: none;
+  margin: 0;
+}
+.nav-area>ul>li {
+  float: left;
+  position: relative;
+}
+.nav-area ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 20px;
+  display: block;
+}
+.nav-area ul li:hover a {
+  background: #34495e;
+}
+.nav-area ul ul {
+  position: absolute;
+  padding: 0;
+  min-width: 160px;
+  display: none;
+  top: 100%;
+  left: 0;
+}
+.nav-area ul li:hover>ul {
+  display: block;
+}
+.nav-area ul ul li:hover a {
+  background: #262626;
+}
+.nav-area ul ul li {
+  position: relative;
+}
+.nav-area ul ul ul {
+  top: 0;
+  left: 100%;
+}
+.nav-area ul ul ul li:hover a {
+  background: #34495e;
+}
+
+.insta{
+  width: 47px;
+  height: 47px;
+  background: url('instagram.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: -46px;
+  right: 79px;
+
+}
+
+.fb{
+  width: 47px;
+  height: 47px;
+  background: url('facebook.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: -46px;
+  right: 70px;
+  background-color: white;
+
+}
+
+.gmail{
+  width: 47px;
+  height: 47px;
+  background: url('gmail.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: -46px;
+  right: 63px;
+}
+
+.rounded-circle{
+  width: 60px;
+  height: 58px;
+  background: url('ASK.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  bottom: 50px;
+  left: 1462px;
+  border-radius: 30px;
+  border-color: white;
+}
+
+.light-footer{
+ /* padding: 0px;
+  margin: 0px;*/
+  background-color: #222222;
+  height: 40px;
+  position: relative;
+  bottom: 0px;
+}
+
+.fb, .gmail, .insta{
+  border-radius: 22px;
+  border-color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  bottom: 0;
+  font-size: 20px;
+  position: relative;
+  bottom: 0px;
+  height: 215px;
+  margin-top: 9px ;
+  padding: 5px;
+}
