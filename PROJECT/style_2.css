@@ -42,6 +42,47 @@ p{
 
 }
 
+
+/*THIS CSS FOR HIT AND TRIAL..IGNORE FOR NOW*/
+
+
+/*
+.bar{
+  display: none;
+}
+
+
+.bar {
+  background: hotpink;
+  height: 71px;
+  font-family: 'Roboto', 'sans-serif;';
+}
+
+.bar ul {
+  float: right;
+  margin-right: 0px;
+  list-style: none;
+}
+
+.bar ul li {
+  display: inline-block;
+  margin: 0px 5px;
+
+}
+
+.bar ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 20px;
+  display: block;
+}
+
+.bar ul li:hover a {
+  background: #34495e;
+}
+
+*/
+
 .nav-area {
   background: #262626;
   height: 71px;
@@ -97,13 +138,13 @@ p{
 .insta{
   width: 47px;
   height: 47px;
-  background: url('instagram.png');
+  background: url('insta.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   bottom: -46px;
   right: 79px;
-
+  border: 1px solid black;
 }
 
 .fb{
@@ -152,9 +193,28 @@ p{
   bottom: 0px;
 }
 
-.fb, .gmail, .insta{
+.rounded-circle:hover{
+  cursor: pointer;
+}
+
+.fb, .gmail{
   border-radius: 22px;
-  color: black;
+  border: 1px solid black;
+}
+
+.insta:hover{
+  cursor: pointer;
+  filter: grayscale(40%);
+}
+
+.gmail:hover{
+  cursor: pointer;
+  filter: grayscale(40%);
+}
+
+.fb:hover{
+  cursor: pointer;
+  filter: grayscale(40%);
 }
 
 footer {
